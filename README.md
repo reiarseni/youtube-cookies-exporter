@@ -5,8 +5,8 @@
 ## 🚀 **Features**  
 ✅ Automatically exports cookies from `youtube.com`.  
 ✅ Generates a Netscape HTTP Cookie file compatible with `yt-dlp`.  
-✅ Enables authenticated video downloads.
-✅ Simple and fast—export cookies with a single click into Download directory.  
+✅ Enables authenticated video downloads.  
+✅ Simple and fast—export cookies with a single click into Download directory, overwriting old file if exists.  
 
 ## 🔧 **How to Install**  
 1. Download or clone this repository.  
@@ -19,7 +19,7 @@
 1. Use the extension to export cookies and save the cookies.txt file into Download directory.  
 2. In your terminal, run the following command in `yt-dlp`:  
    ```sh
-   yt-dlp --cookies cookies.txt https://www.youtube.com/watch?v=VIDEO_ID
+   yt-dlp --cookies path/to/download_folder/cookies.txt https://www.youtube.com/watch?v=VIDEO_ID
    ```
 3. Enjoy seamless authenticated downloads!  
 
