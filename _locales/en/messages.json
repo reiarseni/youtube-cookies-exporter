@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Youtube Cookies Exporter"
+  },
+  "appDesc": {
+    "message": "Save YouTube cookies to a cookies.txt file for use with yt-dlp."
+  },
+  "headerText": {
+    "message": "Save YouTube cookies"
+  }
+}
